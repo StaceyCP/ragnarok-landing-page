@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F9FAF8;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: God Of Thunder;
+    src: url(fonts/god-of-thunder-font/Godofthunder-0WO1P.ttf)
+}
+
+/* Navigation */
+
+.navigation {
+    align-items: center;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 15%;
+}
+
+.navigation__logo {
+    color: #F9FAF8;
+    font-family: "God Of Thunder", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0px 32px;
+}
+
+.navigation__items {
+    margin-right: 17px;
+}
+
+.navigation__itemsLink {
+    color: #E5E7EB;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation__itemsLink:hover {
+    transform: scale(1.25);
+}
+
+/* Onboarding */
+
+.onboarding {
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+.onboarding__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.onboarding__text {
+    width: 45%;
+    margin-right: 20px;
+}
+
+.onboarding__textHead {
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.onboarding__textBtn {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3px;
+    color: #F9FAF8;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+    width: 100px;
+}
+
+.onboarding__textBtn:hover {
+    transform: scale(1.1);
+}
+
+.onboarding__textPara {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    letter-spacing: 1px;
+}
+
+.onboarding__img {
+    width: 40%;
+    margin-left: 20px;
+}
+
+/* Features */
+.features {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.features__head {
+    color: #1F2937;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.features__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 70%;
+}
+
+.features__containerItem {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+/* Quote */
+
+.quote {
+    align-items: center;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px;
+    width: 70%;
+}
+
+.quoteContainer p {
+    color: #1F2937;
+}
+
+.quoteText {
+    align-self: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin-left: 12px;
+    text-align: left;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10%;
+    margin-top: -15px;
+    text-align: right;
+}
+
+/* Call to Action */
+
+.ctaContainer {
+    align-items: center;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: 5% auto 5% auto;
+    padding: 15px;
+}
+
+.ctaContainer__head {
+    color: white;
+    font-size: 20px;
+}
+
+.ctaContainer__text {
+    color: white;
+    font-size: 15px;
+}
+
+.ctaContainer__btn {
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    height: fit-content;
+    text-align: center;
+}
+
+.ctaContainer__btn:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: light;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+}
